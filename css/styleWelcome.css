@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: sans-serif;
+    background: url(../bgimage.jpg);
+    background-size: cover;
+}
+
+.wrapper{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    
+}
+
+.welcome_text{
+    width: 400px;
+}
+
+.welcome_text h1{
+    background-color: #f7d156ec;
+    width: 400px;
+    text-align: center;
+    margin-bottom: 2%;
+    font-weight: 400;
+    padding: 5%;
+}
+
+.welcome_text .instructions h4{
+    
+    text-align: center;
+    margin-bottom: 2%;
+}
+
+.welcome_text .instructions{
+    background-color: #f7d156ec;
+    width: 400px;
+    text-align: left;
+    margin-bottom: 2%;
+    font-weight: 400;
+    padding: 5%;
+}
+
+.welcome_text img{
+    height: 40%;
+    width: 40%;
+    margin-top: -10%;
+    margin-bottom: 2%;
+}
+
+.welcome_form input,
+.welcome_form button {
+    display: block;
+    width: 100%;
+}
+
+.welcome_form input:focus,
+.welcome_form button:focus {
+    outline: none;
+}
+
+.welcome_form input{
+    margin-bottom: 15px;
+    padding: 20px 15px;
+    border: 2ch;
+    font-size: 25px;
+    text-align: center;
+    background-color: #fdebb1ec;
+}
+
+.welcome_form button{
+    font-size: 16px;
+    padding: 20px 0;
+    border: none;
+    background-color: #ffc400ec;
+    border-radius: 27px;
+    transition: 0.4s all;
+}
+
+.welcome_form button:hover{
+    transform: translateY(-4px);
+    cursor: pointer;
+}
+
